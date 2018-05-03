@@ -1,0 +1,75 @@
+.variation .penny{
+  width: 144px;
+}
+
+.variation #content > section.pushes > section > div > div.body{
+  text-align: center;
+}
+
+.variation #content > section.pushes > section > div > div.push.invert > div{
+  background-image: none;
+}
+
+.variation .new-section{
+  margin-bottom: 30px;
+}
+
+.variation #content > section.pushes > section > div > div.body > h3.title{
+  margin-top: 0;
+}
+
+.variation #content > section.pushes{
+  padding-top: 0;
+}
+
+.variation #content > section.pushes > section{
+	background-color: #e6ecf0;
+  padding-top: 50px;
+  padding-bottom: 7px;
+}
+
+.variation #content > section.pushes > div{
+  padding-top: 30px;
+}
+
+.variation #content > section.pushes > section > section{
+  display: none;
+}
+
+.variation #content > section.pushes > section > main{
+  display: none;
+}
+
+@media (max-width: 991px){
+	.variation #content > section.cities-section.visible-xs.visible-sm{
+    display: none !important;
+  }
+  .variation #content > main{
+    display: none;
+  }
+  .variation #content > section.pushes > section > main{
+    display: block !important;
+  }
+}
+
+@media (max-width: 1024px){
+  .variation #content > section.pushes > section > div{
+    width: inherit;
+  }
+  .variation #content > section.pushes > section > div > div.push.invert{
+    background: white;
+  }
+    .variation .new-section .body h3 {
+    display: inline;
+  }
+  .variation .new-section .body {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .variation #content > section.pushes > section > div{
+    margin-bottom: 0;
+  }
+  .variation #content > section.pushes > section{
+    padding-top: 30px !important;
+  }
+}
