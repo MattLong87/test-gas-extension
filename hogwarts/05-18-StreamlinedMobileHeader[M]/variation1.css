@@ -2,32 +2,7 @@ ul.top-bar{
   padding: 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-}
-
-.top-bar li{
-  display: inline;
-  color: white;
-}
-
-.social-media{
-  height: 30px;
-  display: flex;
-  align-items: center;
-  background-color: black;
-}
-
-.social-media a{
-  height: unset;
-  width: unset;
-  display: inline;
-}
-
-.navigation-bar{
-  background-color: #000;
-  color: white;
-  display: flex;
-  flex-direction: row-reverse;
+  aligndtion: row-reverse;
   align-items: center;
   border-bottom: 1px solid #aaa;
 }

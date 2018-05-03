@@ -1,10 +1,6 @@
 $(document).ready(function() {
 
-var cartCount = $('.cart-itemcount').html();
-
-//TOP BAR
-$('#navlist').html('');
-$('.social-media').children().html('<ul class="top-bar"><a href="https://www.steinertractor.com/quick_order.aspx"><li>Order</li></a><a href="https://www.steinertractor.com/Registration?&PREV=95E421F67937"><li>Account</li></a><a class="link-B" href="/ajax.aspx?CN=525890DC4A94" data-toggle="modal"><li>Sign In</li></a><a href="https://www.steinertractor.com/contact_us.aspx"><li>Contact Us</li></a></ul>');
+var cartCountd-media').children().html('<ul class="top-bar"><a href="https://www.steinertractor.com/quick_order.aspx"><li>Order</li></a><a href="https://www.steinertractor.com/Registration?&PREV=95E421F67937"><li>Account</li></a><a class="link-B" href="/ajax.aspx?CN=525890DC4A94" data-toggle="modal"><li>Sign In</li></a><a href="https://www.steinertractor.com/contact_us.aspx"><li>Contact Us</li></a></ul>');
 
 //NAVIGATION BAR  
 $('.social-media').after('<div class="row navigation-bar"><a href="tel:1-800-234-3280"><img src="//cdn.optimizely.com/img/8131120993/bfb3ce851c054007898095edb496490c.png" class="phone"></a><img src="//cdn.optimizely.com/img/8131120993/c8f8838adfd34c1681bc5e2aec4dd46b.png" class="hamburger"></div>'); 
